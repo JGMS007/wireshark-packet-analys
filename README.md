@@ -11,5 +11,12 @@ Before HTTP sends any data, TCP establishes a reliable connection. In the file, 
 * **Packet 1:** Client sends `[SYN]`
 * **Packet 2:** Server responds with `[SYN, ACK]`
 * **Packet 3:** Client confirms with `[ACK]`
+* * **Filter used:** `tcp.stream eq 0"`
 
 ![TCP Handshake Print in Wireshark](img/analise_wireshark.png)
+
+### 2. The HTTP GET Request
+The client requests the main file from the server using the `GET` method.
+
+* **Filter used:** `http"`
+![filter used](img/analiise_wireshark.1.png)
