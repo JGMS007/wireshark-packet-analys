@@ -30,3 +30,8 @@ By inspecting the response packet (`HTTP/1.1 200 OK`) and following the TCP stre
 it is possible to see the raw HTML code that was delivered to the user:
 
 ![HTML code](img/analise_wireshark.3.png)
+
+
+## 📘 Wireshark Guide
+To help others use the tool, I am making the Wireshark user guide available here.
+![Download Wireshark Users Guide](Wireshark User's Guide.pdf)
