@@ -12,4 +12,4 @@ Before HTTP sends any data, TCP establishes a reliable connection. In the file, 
 * **Packet 2:** Server responds with `[SYN, ACK]`
 * **Packet 3:** Client confirms with `[ACK]`
 
-<img width="1918" height="1039" alt="image" src="img/analise_wireshark.png />
+![TCP Handshake Print in Wireshark](img/analise_wireshark.png)
