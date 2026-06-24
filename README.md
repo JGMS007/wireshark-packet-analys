@@ -21,3 +21,12 @@ The client requests the main file from the server using the `GET` method.
 * **Filter used:** `http`
 
 ![filter used](img/analise_wireshark.1.png)
+
+### 3. Server Response and Content
+By inspecting the response packet (`HTTP/1.1 200 OK`) and following the TCP stream (*Follow TCP Stream*)
+
+![Following the TCP Stream](img/analise_wireshark.2.png)
+
+it is possible to see the raw HTML code that was delivered to the user:
+
+![HTML code](img/analise_wireshark.3.png)
