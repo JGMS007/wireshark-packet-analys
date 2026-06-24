@@ -18,6 +18,6 @@ Before HTTP sends any data, TCP establishes a reliable connection. In the file, 
 ### 2. The HTTP GET Request
 The client requests the main file from the server using the `GET` method.
 
-* **Filter used:** `http"`
+* **Filter used:** `http`
 
-![filter used](img/analiise_wireshark.1.png)
+![filter used](img/analise_wireshark.1.png)
